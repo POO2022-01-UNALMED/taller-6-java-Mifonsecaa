@@ -14,9 +14,9 @@ public class Automovil extends Vehiculo{
 		
 	}
 	
-	public int getPuertas() {return puestos;}
-	public void setPuertas(int puestos) {this.puestos = puestos;}
+	public int getPuestos() {return puestos;}
+	public void setPuestos(int puestos) {this.puestos = puestos;}
 	
-	public static int getCantidadAutomovil(){return automoviles;}
+	public static int getAutomoviles(){return automoviles;}
 	
 }
