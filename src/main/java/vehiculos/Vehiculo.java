@@ -4,16 +4,16 @@ package vehiculos;
 public class Vehiculo {
 	protected String placa; 
 	protected int puertas; 
-	protected float velocidadMaxima; 
+	protected int velocidadMaxima; 
 	protected String nombre; 
-	protected float precio; 
+	protected int precio; 
 	protected float peso;
 	protected String traccion; 
 	protected Fabricante fabricante;
 	
 	private static int vehiculos = 0;
 	
-	public Vehiculo (String placa, int puertas, float velocidadMaxima, String nombre, float precio, float peso,
+	public Vehiculo (String placa, int puertas, int velocidadMaxima, String nombre, int precio, float peso,
 			String traccion, Fabricante fabricante) {
 		this.placa = placa;
 		this.puertas = puertas;
@@ -45,13 +45,13 @@ public class Vehiculo {
 	public void setPuertas(int puertas) {this.puertas = puertas;}
 	
 	public float getVelocidadMaxima() {return velocidadMaxima;}
-	public void setVelocidadMaxima(float velocidadMaxima) {this.velocidadMaxima = velocidadMaxima;}
+	public void setVelocidadMaxima(int velocidadMaxima) {this.velocidadMaxima = velocidadMaxima;}
 
 	public String getNombre() {return nombre;}
 	public void setNombre(String nombre) {this.nombre = nombre;}
 	
 	public float getPrecio() {return precio;}
-	public void setPrecio(float precio) {this.precio = precio;}
+	public void setPrecio(int precio) {this.precio = precio;}
 	
 	public float getPeso() {return peso;}
 	public void setPeso(float peso) {this.peso = peso;}
