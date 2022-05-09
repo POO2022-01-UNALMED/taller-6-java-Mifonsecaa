@@ -26,7 +26,7 @@ public class Vehiculo {
 		vehiculos++;
 		fabricante.setContador();
 		fabricante.getPais().setContador();
-		fabricante.getFabricantes().add(fabricante);
+		Fabricante.getFabricantes().add(fabricante);
 		Pais.getPaises().add(fabricante.getPais());
 	}
 	
