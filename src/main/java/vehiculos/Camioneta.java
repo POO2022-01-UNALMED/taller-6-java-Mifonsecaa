@@ -16,7 +16,7 @@ public class Camioneta extends Vehiculo{
 	public boolean isVolco(){return volco;}
 	public void setVolco(boolean volco){this.volco = volco;}
 	
-	public static int getCantidadCamionetas(){return camionetas;}
+	public static int getCamionetas(){return camionetas;}
 
 	
 }
