@@ -31,9 +31,9 @@ public class Vehiculo {
 	}
 	
 	public String vehiculosPorTipo() {
-		return "Automoviles: " + Automovil.getCantidadAutomovil() + 
-				"\nCamionetas: " + Camioneta.getCantidadCamionetas() +
-				"\nCamiones: " + Camion.getCantidadCamiones();
+		return "Automoviles: " + Automovil.getAutomoviles() + 
+				 "\nCamionetas: " + Camioneta.getCamionetas() +
+				  "\nCamiones: " + Camion.getCamiones();
 	}
 	
 	
