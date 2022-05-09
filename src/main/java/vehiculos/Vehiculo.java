@@ -30,12 +30,6 @@ public class Vehiculo {
 		Pais.getPaises().add(fabricante.getPais());
 	}
 	
-	public String vehiculosPorTipo() {
-		return "Automoviles: " + Automovil.getAutomoviles() + 
-				 "\nCamionetas: " + Camioneta.getCamionetas() +
-				  "\nCamiones: " + Camion.getCamiones();
-	}
-	
 	
 	
 	public String getPlaca() {return placa;}
@@ -65,5 +59,8 @@ public class Vehiculo {
 	public static int getCantidadVehiculos(){return vehiculos;}
 	public static void setCantidadVehiculos(int vehiculos) {Vehiculo.vehiculos=vehiculos;}
 	
+	public String vehiculosPorTipo() {
+		return "Automoviles: " + Automovil.getAutomoviles() + "\nCamionetas: " + Camioneta.getCamionetas() + "\nCamiones: " + Camion.getCamiones();
+	}
 	
 }
